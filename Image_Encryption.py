@@ -45,7 +45,7 @@ def generate_key():
     return os.urandom(16)
 
 if __name__ == "__main__":
-    image_path = "car.jpeg"
+    image_path = "cat.jpeg"
     
     key = generate_key()
     
